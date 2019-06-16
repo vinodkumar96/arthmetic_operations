@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="#7fff00">
+<form action="./arthmetic" method="post">
+    {% csrf_token %}
+    enter f num :<input type="text" name="t1"> <br>
+    enter s num :<input type="text" name="t2"> <br>
+    <input type="submit" value="add" name="operation">
+    <input type="submit" value="sub" name="operation">
+    <input type="submit" value="mul" name="operation">
+    <input type="submit" value="div" name="operation">
+
+</form>
+</body>
+</html>
